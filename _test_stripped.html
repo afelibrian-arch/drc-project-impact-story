@@ -1,0 +1,489 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a52327">
+<title>HESED Africa Â· Strengthening Systems, Expanding Dignity</title>
+<style>
+:root{--red:#a52327;--red-dark:#7c171d;--ink:#1f2423;--muted:#66716d;--cream:#f6f0e5;--paper:#fbfaf7;--line:#d9d3c7;--green:#315b4d;--shadow:0 18px 60px #28171218;--serif:Georgia,'Times New Roman',serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.58}button{font:inherit;cursor:pointer}h1,h2,h3,p{margin-top:0}h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:-.045em;line-height:.98}h1{font-size:clamp(3.3rem,7vw,7.3rem)}h2{font-size:clamp(2.3rem,5vw,5.3rem)}h3{font-size:1rem;letter-spacing:.08em;text-transform:uppercase;line-height:1.2}em{color:#cb5b52;font-style:italic}.eyebrow{font-size:.68rem;letter-spacing:.19em;font-weight:800;color:var(--red);margin-bottom:1.6rem}.eyebrow.pale{color:#f5b9a5}.lede{font-size:clamp(1rem,1.45vw,1.3rem);max-width:620px;color:#52605c}.micro{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}.copy{max-width:610px;color:#45504d}.copy p,.story-slide p{margin-bottom:1.1rem}.copy ul,.image-copy ul{padding-left:1.25rem}.copy li,.image-copy li{margin:.6rem 0}.presentation-view{height:100svh;overflow-y:auto;scroll-snap-type:y mandatory;scroll-behavior:smooth;padding-top:68px}.slide{min-height:calc(100svh - 68px);scroll-snap-align:start;position:relative;padding:clamp(2.8rem,6vw,7rem) clamp(1.3rem,7vw,8.5rem);overflow:hidden}.light-slide{background:var(--paper)}.cream-slide{background:var(--cream)}.red-slide{background:var(--red);color:white}.dark-slide{background:#1f2926;color:white}.red-slide em,.dark-slide em{color:#ffc0a5}.red-slide .copy,.dark-slide .copy{color:#f9ded5}.hero-slide{background:var(--cream);padding-top:clamp(4rem,9vw,9rem)}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,7vw,8rem);max-width:1420px;margin:auto;align-items:center}.hero-slide h1{margin-bottom:2rem}.hero-art{position:relative;min-height:60vh}.hero-photo{position:absolute;right:0;top:0;width:74%;height:84%;overflow:hidden;border-radius:46% 46% 12% 12%;box-shadow:var(--shadow);transform:rotate(3deg)}.hero-photo img{width:100%;height:100%;object-fit:cover}.hero-stamp{position:absolute;left:0;bottom:4%;width:190px;height:190px;border-radius:50%;background:var(--red);color:white;display:grid;place-content:center;text-align:center;font-size:.75rem;letter-spacing:.2em;line-height:1.55;transform:rotate(-9deg);box-shadow:0 15px 30px #48171b33}.hero-stamp b{color:#f6b19e}.hero-line{position:absolute;width:130px;height:1px;background:var(--red);left:25%;bottom:4%;transform:rotate(-9deg)}.hero-actions{display:flex;gap:1.1rem;align-items:center;margin-top:2.2rem}.primary{background:var(--red);color:#fff;border:0;border-radius:999px;padding:1rem 1.45rem;font-weight:700}.primary span{font-size:1.2rem;margin-left:.7rem}.hero-footer{position:absolute;left:clamp(1.3rem,7vw,8.5rem);right:clamp(1.3rem,7vw,8.5rem);bottom:1.5rem;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:.8rem;font-size:.62rem;letter-spacing:.14em;color:var(--muted)}.split-intro{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,8vw,10rem);max-width:1420px;margin:0 auto 3rem}.split-intro h2{margin:0}.logo-row{display:flex;gap:1.25rem;align-items:center;flex-wrap:wrap;margin:3rem auto 0;max-width:1420px}.logo-wrap{background:white;border:1px solid #e6e0d6;border-radius:12px;padding:1rem 1.2rem;min-width:160px;display:flex;align-items:center;gap:.8rem;box-shadow:0 8px 24px #27170e0c}.logo-wrap img{width:95px;height:55px;object-fit:contain}.logo-wrap span{font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--muted)}.red-slide .logo-wrap{background:#fff}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#e4b1a3;max-width:1420px;margin:4rem auto 0}.time-card{padding:1.8rem;background:#9c2026;min-height:230px}.time-card>b{font-family:var(--serif);font-size:2rem;color:#ffc0a5}.time-card h3{margin:1rem 0 .8rem}.time-card p{color:#ffe4db;font-size:.95rem}.three-column,.four-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;max-width:1420px;margin:3rem auto 0}.four-grid{grid-template-columns:repeat(2,1fr)}.info-card{background:white;border:1px solid var(--line);padding:1.5rem;min-height:190px;box-shadow:0 8px 30px #24150b08}.info-card.warm{background:#f3e1d2;border-color:#edc9af}.info-card.dark{background:#263f36;color:#fff;border-color:#263f36}.info-card h3{color:var(--red);margin-bottom:1rem;font-size:.78rem}.info-card.dark h3{color:#ffc0a5}.info-card p{color:inherit;font-size:.91rem}.red-slide .info-card{color:var(--ink)}.red-slide .info-card.dark{color:white}.stats,.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;max-width:1420px;margin:3rem auto 0}.stat-card{padding:1.4rem;border-top:1px solid currentColor}.stat-card strong{display:block;font-family:var(--serif);font-size:clamp(2rem,4vw,4rem);line-height:1;color:var(--red);margin-bottom:.65rem}.red-slide .stat-card strong,.dark-slide .stat-card strong{color:#ffc0a5}.stat-card span{display:block;font-size:.7rem;letter-spacing:.14em;font-weight:800}.stat-card small{display:block;margin-top:.8rem;color:var(--muted);font-size:.77rem;line-height:1.45}.red-slide .stat-card small,.dark-slide .stat-card small{color:#f7cfc4}.image-slide{padding:0;display:grid;grid-template-columns:1.05fr .95fr}.image-panel{height:100%;min-height:calc(100svh - 68px);background:#e7dfd2;overflow:hidden}.image-panel img{width:100%;height:100%;object-fit:cover}.image-panel.collage{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:var(--cream)}.image-panel.collage img{min-height:0}.image-copy{padding:clamp(2rem,7vw,7.5rem) clamp(1.3rem,6vw,7rem);display:flex;flex-direction:column;justify-content:center;background:var(--paper)}.image-copy h2{margin-bottom:1.4rem}.section-sub{font-size:.7rem;letter-spacing:.23em;color:#aab7b1}.section-rule{height:1px;background:#6f7f78;margin:2rem 0;max-width:440px}.big-quote{font-family:var(--serif);font-size:clamp(1.8rem,4vw,4.2rem);line-height:1.1}.accountability-grid{display:grid;grid-template-columns:180px 1fr;gap:4rem;max-width:900px;margin:3.5rem auto 0;align-items:center}.feedback-number{font-family:var(--serif);font-size:9rem;color:var(--red);line-height:.8}.check-grid{max-width:950px;margin:3rem auto 0;padding:2rem;border-left:5px solid var(--red);background:white}.check-grid ul{padding-left:1.3rem}.check-grid li{margin:1rem 0}.closing-list{max-width:800px;margin:3rem auto}.closing-list li{font-family:var(--serif);font-size:clamp(1.25rem,2.2vw,2rem);margin:1.1rem 0}.contact-line{text-align:center;margin-top:3rem;font-size:.78rem;letter-spacing:.1em;font-weight:800;color:var(--red)}.contact-line span{margin:0 .5rem}.story-cover{display:grid;grid-template-columns:1fr 1fr;padding:0;background:#2b4039;color:#fff}.women-cover{background:#466e5a}.golf-cover{background:#233b34}.story-cover-content{display:flex;flex-direction:column;justify-content:center;padding:clamp(2rem,7vw,8rem)}.story-cover h2{max-width:650px}.story-cover p{max-width:480px;color:#dce8de}.story-cover-photo{overflow:hidden;min-height:100%}.story-cover-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.85)}.story-slide{padding-top:clamp(3rem,5vw,6rem);padding-bottom:clamp(3rem,5vw,6rem)}.two-col-copy{columns:2;column-gap:3rem;max-width:1200px;margin:2rem auto 0}.two-impact{display:grid;grid-template-columns:1fr 1fr;gap:1rem;max-width:1420px;margin:2rem auto 0}.impact-stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem;max-width:1420px;margin:2rem auto 0}.metadata{margin-top:2rem;color:var(--muted);font-size:.76rem;line-height:1.6;border-top:1px solid var(--line);padding-top:1rem}.gallery-slide{background:var(--cream)}.mini-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;max-width:1420px;margin:2rem auto 0}.mini-gallery figure{margin:0;background:white;padding:.55rem;box-shadow:var(--shadow)}.mini-gallery img{width:100%;height:135px;object-fit:cover}.mini-gallery figcaption{font-size:.68rem;line-height:1.3;padding:.65rem .3rem;color:var(--muted)}.thank-slide{background:var(--red);color:white;text-align:center;display:grid;place-content:center}.thank-slide h2{font-size:clamp(5rem,14vw,13rem)}.thank-slide p{font-size:1.1rem;letter-spacing:.12em}.thank-slide .logo-row{justify-content:center}.thank-slide .logo-wrap{color:var(--ink)}.thank-slide em{color:#ffc0a5}
+.full-page-view{display:none}.report-hero{background:var(--cream);padding:clamp(5rem,10vw,10rem) max(1.3rem,7vw)}.report-hero-inner{display:grid;grid-template-columns:1fr 360px;align-items:center;gap:5rem;max-width:1200px;margin:auto}.report-hero-art{height:430px;border-radius:200px 200px 18px 18px;overflow:hidden;box-shadow:var(--shadow);transform:rotate(3deg)}.report-hero-art img{width:100%;height:100%;object-fit:cover}.reader-section{max-width:1200px;margin:auto;padding:clamp(4rem,8vw,8rem) max(1.3rem,4vw)}.reader-section.tinted{max-width:none;background:var(--cream);padding-left:max(1.3rem,calc((100vw - 1200px)/2));padding-right:max(1.3rem,calc((100vw - 1200px)/2))}.reader-section h2{font-size:clamp(2.5rem,6vw,6rem);max-width:950px;margin-bottom:2.2rem}.reader-section h3{color:var(--red);margin-top:3.4rem}.reader-section>p{max-width:950px;color:#4c5854}.reader-kicker{font-size:.68rem;letter-spacing:.19em;font-weight:800;color:var(--red);margin-bottom:1rem}.reader-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:1.5rem 0}.reader-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2rem 0}.reader-timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.reader-timeline>div{border-top:4px solid var(--red);padding-top:1rem}.reader-timeline b{font-family:var(--serif);font-size:2rem}.reader-timeline h3{margin:1rem 0}.reader-section ul{max-width:850px;padding-left:1.3rem}.reader-section li{margin:.75rem 0}.image-text{display:grid;grid-template-columns:260px 1fr;gap:2rem;align-items:center}.image-text img{width:100%;height:240px;object-fit:cover;border-radius:120px 120px 10px 10px}.image-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:.65rem;margin:2rem 0 3rem}.image-strip img{width:100%;height:150px;object-fit:cover}.story-reader h2{max-width:1050px}.story-meta{color:var(--muted);font-size:.78rem;border-top:1px solid var(--line);padding-top:.85rem;margin:1rem 0 2rem}.reader-footer{padding:4rem max(1.3rem,7vw);background:var(--red);color:white;text-align:center}.reader-footer .logo-row{justify-content:center}.reader-footer .logo-wrap{color:var(--ink)}.reader-footer p{margin-top:1rem}.controls{position:fixed;z-index:20;top:0;left:0;right:0;height:68px;display:flex;align-items:center;justify-content:space-between;padding:.7rem clamp(1rem,3vw,3rem);background:#fbfaf7e8;backdrop-filter:blur(16px);border-bottom:1px solid #d9d3c777}.brand{font-size:.73rem;font-weight:900;letter-spacing:.16em;color:var(--red)}.control-actions{display:flex;align-items:center;gap:.45rem}.mode-toggle{display:flex;padding:.18rem;background:#ebe6dd;border-radius:999px}.mode-toggle button,.icon-btn{border:0;background:transparent;color:var(--muted);padding:.5rem .8rem;border-radius:999px;font-size:.72rem;font-weight:800}.mode-toggle button.active{background:white;color:var(--red);box-shadow:0 2px 10px #1e140c12}.icon-btn{font-size:1rem;padding:.45rem .6rem}.slide-count{font-size:.72rem;color:var(--muted);min-width:62px;text-align:right}.slide-dots{position:fixed;z-index:19;right:1.4rem;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:.45rem}.slide-dots button{border:0;width:7px;height:7px;border-radius:50%;padding:0;background:#b7aaa0}.slide-dots button.active{background:var(--red);transform:scale(1.7)}body.mode-full{background:var(--paper)}body.mode-full .presentation-view,body.mode-full .slide-dots{display:none}body.mode-full .full-page-view{display:block}body.mode-present .full-page-view{display:none}@media(max-width:800px){.hero-grid,.split-intro,.story-cover,.image-slide,.report-hero-inner{grid-template-columns:1fr}.hero-art{min-height:45vh}.hero-photo{height:88%;width:80%}.hero-footer{display:none}.three-column,.four-grid,.stats,.stat-row,.impact-stack,.two-impact,.reader-grid,.reader-stats,.reader-timeline{grid-template-columns:1fr}.timeline{grid-template-columns:1fr 1fr}.image-panel{min-height:42vh}.image-copy{min-height:50vh}.two-col-copy{columns:1}.mini-gallery{grid-template-columns:1fr 1fr}.accountability-grid{grid-template-columns:1fr;gap:1rem}.feedback-number{font-size:5rem}.story-cover-photo{min-height:44vh}.image-strip{grid-template-columns:repeat(2,1fr)}.image-strip img{height:135px}.report-hero-art{height:300px}.slide-dots{display:none}.mode-toggle button{padding:.5rem .55rem}.brand{font-size:.6rem}.micro{display:none}.logo-wrap{min-width:140px}.logo-wrap img{width:76px}}\n+@media print{.controls,.slide-dots,.presentation-view{display:none!important}.full-page-view{display:block!important}.reader-section{break-inside:avoid}.report-hero{padding:3rem}.reader-section{padding:3rem}.reader-section.tinted{padding-left:3rem;padding-right:3rem}}
+</style>
+</head>
+<body class="mode-present">
+<header class="controls">
+  <div class="brand">HESED AFRICA <span aria-hidden="true">/</span> 2022â€“2026</div>
+  <div class="control-actions">
+    <div class="mode-toggle" aria-label="View mode">
+      <button data-mode="present" class="active">Present</button>
+      <button data-mode="full">Full page</button>
+    </div>
+    <button class="icon-btn" id="printBtn" title="Print or save as PDF" aria-label="Print or save as PDF">â¤“</button>
+    <button class="icon-btn" id="fullscreenBtn" title="Toggle fullscreen" aria-label="Toggle fullscreen">â›¶</button>
+    <span class="slide-count" id="slideCount">01 / 36</span>
+  </div>
+</header>
+<nav class="slide-dots" id="slideDots" aria-label="Presentation slides"></nav>
+
+<main id="deck" class="presentation-view" aria-label="Presentation view">
+  <section class="slide hero-slide" id="s1" data-title="Opening">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">HESED AFRICA Â· 2022â€“2026</div>
+        <h1>Strengthening systems.<br><em>Expanding dignity.</em></h1>
+        <p class="lede">Financial management, MEAL &amp; organizational resilience â€” a visual presentation of HESED Africaâ€™s transformation, partnerships, and resource mobilization journey.</p>
+        <div class="hero-actions"><button class="primary" data-jump="s2">Begin the story <span>â†˜</span></button><span class="micro">Use the controls or arrow keys to navigate</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-photo"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Handcrafted HESED Africa product" loading="lazy"></div>
+        <div class="hero-stamp">LOCAL<br>LEADERSHIP<br><b>IN ACTION</b></div>
+        <div class="hero-line"></div>
+      </div>
+    </div>
+    <div class="hero-footer"><span>FINANCIAL MANAGEMENT Â· MEAL Â· ORGANIZATIONAL RESILIENCE</span><span>info@hesedafrica.org Â· www.hesedafrica.org</span></div>
+  </section>
+
+  <section class="slide light-slide" id="s2" data-title="The program">
+    <div class="split-intro">
+      <div><div class="eyebrow">THE SUSTAINABILITY MODEL PROGRAM</div><h2>Localization is not a slogan.<br><em>It is a system.</em></h2></div>
+      <div class="copy"><p>The Sustainability Model Program (SMP) was a five-year initiative implemented through a collaboration between the Danish Refugee Council (DRC) and five local organizations, including the Foundation for Health and Social Economic Development (HESED) Africa. The programâ€™s primary objective was to advance the localization of humanitarian response in Kenya. It was funded by the Ministry of Foreign Affairs of Denmark (DANIDA). The program prioritizes institutional capacity development to strengthen local organizations and enable them to operate more effectively, sustainably, and resiliently.</p><p>Localization is at the heart of DRCâ€™s organizational approach, promoting local leadership in responding to the needs of communities affected by conflict and displacement. By investing in the capacity of local organizations, the program supports them to grow, lead community-based solutions, and deliver more effective services to the populations they serve.</p></div>
+    </div>
+    <div class="logo-row">
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Danish Refugee Council logo" loading="lazy"><span>DRC</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa logo" loading="lazy"><span>HESED Africa</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Ministry of Foreign Affairs of Denmark Danida logo" loading="lazy"><span>DANIDA</span></div>
+</div>
+  </section>
+
+  <section class="slide red-slide" id="s3" data-title="Timeline">
+    <div class="eyebrow pale">EXECUTIVE SUMMARY &amp; TIMELINE OVERVIEW</div>
+    <h2>A five-year arc from manual systems<br><em>to resilient infrastructure.</em></h2>
+    <div class="timeline">
+      <div class="time-card"><b>2022</b><h3>Baseline</h3><p>Manual finance, paper M&amp;E, donor-only funding. Danida SMP grant secured. RM feasibility study launched.</p></div>
+      <div class="time-card"><b>2023</b><h3>Digital foundations</h3><p>QuickBooks multi-user rollout. KoboToolbox mobile data collection deployed. RM department &amp; committee formed.</p></div>
+      <div class="time-card"><b>2024</b><h3>Transformation</h3><p>Power BI dashboards and FCRM database introduced. KES 86M resource mobilization. Taraji Handicrafts registered.</p></div>
+      <div class="time-card"><b>2025â€“2026</b><h3>Consolidation</h3><p>100% audit compliance, KES 27.32M new funding, 90% RTP foundation, 14 local groups profiled &amp; strengthened.</p></div>
+    </div>
+  </section>
+
+  <section class="slide light-slide" id="s4" data-title="Financial management">
+    <div class="eyebrow">SECTION 01 Â· FINANCIAL MANAGEMENT</div>
+    <h2>From manual controls to<br><em>accountable scale.</em></h2>
+    <div class="three-column">
+      <article class="info-card ">
+      <h3>BASELINE STATE Â· 2022â€“2023</h3><p>Manual, single-user QuickBooks; ad-hoc budgeting; no procurement separation; limited financial controls &amp; policies.</p>
+    </article>
+      <article class="info-card warm">
+      <h3>TRANSITION &amp; CAPACITY Â· 2024â€“2025</h3><p>Multi-user QuickBooks system; dedicated procurement function; formalized financial policies; annual external audits introduced.</p>
+    </article>
+      <article class="info-card dark">
+      <h3>CONSOLIDATION &amp; OUTCOMES</h3><p>Full finance/procurement separation; 100% audit compliance; standardized templates; independent co-financing budget management.</p>
+    </article>
+    </div>
+  </section>
+
+  <section class="slide cream-slide" id="s5" data-title="Finance systems">
+    <div class="eyebrow">FINANCIAL SYSTEMS</div>
+    <h2>Infrastructure that makes<br><em>stewardship visible.</em></h2>
+    <div class="four-grid">
+      <article class="info-card ">
+      <h3>DIGITAL FINANCIAL FILING</h3><p>Fully automated digital financial filing system with cloud-based document management, eliminating manual processes and ensuring real-time access to financial records.</p>
+    </article>
+      <article class="info-card ">
+      <h3>REQUISITION TEMPLATES</h3><p>Standardized requisition templates deployed across all departments, streamlining procurement workflows and ensuring consistent financial controls organization-wide.</p>
+    </article>
+      <article class="info-card ">
+      <h3>PEER-TO-PEER LEARNING</h3><p>5-day exchange learning event with SIR partners, benchmarking best practices and sharing QuickBooks multi-user features for enhanced financial collaboration.</p>
+    </article>
+      <article class="info-card ">
+      <h3>INDEPENDENT BUDGET MANAGEMENT</h3><p>Independent budget management for co-financing with KES 1M (20%) co-financing ratio, enabling autonomous tracking of sustainability budget of KES 6M.</p>
+    </article>
+    </div>
+  </section>
+
+  <section class="slide red-slide" id="s6" data-title="Finance KPIs">
+    <div class="eyebrow pale">FINANCIAL MANAGEMENT: KEY KPIs &amp; CONTROLS</div>
+    <div class="split-intro">
+      <div><h2>Controls are the quiet architecture of <em>trust.</em></h2></div>
+      <div class="copy"><p>Robust financial controls and KPI tracking underpin HESED Africa's accountability and sustainability. Monthly budget-versus-actual reviews, 100% audit compliance, and a centralized asset register ensure transparent, efficient resource stewardship across all programs.</p></div>
+    </div>
+    <div class="stats"><article class="stat-card">
+      <strong>KES 6M</strong><span>SUSTAINABILITY BUDGET</span>
+      <small>KES 6M sustainability budget with 20% co-financing (KES 1M). Monthly budget-versus-actual tracking across all cost centres and donor lines.</small>
+    </article><article class="stat-card">
+      <strong>100%</strong><span>AUDIT COMPLIANCE</span>
+      <small>Unqualified audit opinions achieved consistently. Full compliance with donor financial requirements and internal procurement controls.</small>
+    </article><article class="stat-card">
+      <strong>CENTRALIZED</strong><span>ASSET REGISTER</span>
+      <small>Fully centralized asset register with depreciation tracking. Standardized requisition templates and digital payment voucher system in place.</small>
+    </article></div>
+  </section>
+
+  <section class="slide image-slide" id="s7" data-title="Peer exchange">
+    <div class="image-panel"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Peer learning and financial systems exchange" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">FINANCIAL MANAGEMENT Â· PEER EXCHANGE &amp; SUSTAINABILITY</div><h2>Learning travels<br><em>both ways.</em></h2><p>5-Day Learning Event with SIR: Benchmarking financial systems and sharing QuickBooks best practices across organizations.</p><ul><li>QuickBooks multi-user feature sharing and workflow alignment</li><li>Budget-versus-actual tracking methodology exchange</li><li>Strengthened inter-agency financial accountability standards</li><li>Peer-validated procurement and requisition processes</li></ul></div>
+  </section>
+
+  <section class="slide dark-slide" id="s8" data-title="MEAL">
+    <div class="eyebrow pale">SECTION 02</div><h2>MEAL</h2><p class="section-sub">MONITORING, EVALUATION, ACCOUNTABILITY &amp; LEARNING</p>
+    <div class="section-rule"></div><p class="big-quote">Good data does not sit in a report.<br><em>It changes the next decision.</em></p>
+  </section>
+
+  <section class="slide light-slide" id="s9" data-title="MEAL transformation">
+    <div class="eyebrow">MEAL BASELINE &amp; DIGITAL TRANSFORMATION</div>
+    <h2>From paper trails to<br><em>real-time insight.</em></h2>
+    <div class="three-column">
+      <article class="info-card ">
+      <h3>BASELINE</h3><p>Paper-based surveys &amp; manual data entry. Reactive M&amp;E with no centralized databases. Fragmented reporting and limited real-time visibility.</p>
+    </article>
+      <article class="info-card warm">
+      <h3>DIGITAL TRANSITION</h3><p>KoboToolbox mobile data collection deployed. Power BI dashboards introduced for real-time reporting. Staff trained on digital data tools and indicator tracking.</p>
+    </article>
+      <article class="info-card dark">
+      <h3>CONSOLIDATED IMPACT</h3><p>Master Impact Database established. 100% data accuracy via DQAs &amp; audits. Real-time insights enabling evidence-based decision-making across all programs.</p>
+    </article>
+    </div>
+  </section>
+
+  <section class="slide cream-slide" id="s10" data-title="Accountability">
+    <div class="eyebrow">MEAL ACCOUNTABILITY &amp; FEEDBACK MECHANISMS</div>
+    <h2>Feedback is part of<br><em>the delivery system.</em></h2>
+    <div class="accountability-grid"><div class="feedback-number">04</div><div><ul><li>FCRM database for systematic beneficiary feedback tracking</li><li>Suggestion boxes, website portals &amp; dedicated phone lines</li><li>Urban refugee accountability forums &amp; community dialogues</li><li>Concept note: digital toll-free feedback line for real-time input</li></ul></div></div>
+  </section>
+
+  <section class="slide light-slide" id="s11" data-title="Data quality">
+    <div class="eyebrow">MEAL DATA QUALITY &amp; LEARNING</div>
+    <h2>Accuracy is a habit<br><em>built into the culture.</em></h2>
+    <div class="check-grid"><ul><li><b>100% Data Accuracy</b> achieved through regular Data Quality Audits (DQAs) and independent data reviews</li><li>Monthly Lessons Learned database maintained and reviewed in staff meetings</li><li>Mandatory project kick-offs briefing all staff on indicator definitions, targets, and data tools</li><li>Brown-bag sessions conducted on data storytelling, KoboToolbox, and Power BI tools</li><li>Standardized indicator tracking across all programs for consistency and reliability</li></ul></div>
+  </section>
+
+  <section class="slide image-slide" id="s12" data-title="MEAL collaboration">
+    <div class="image-panel"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="MEAL collaboration and learning exchange" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">MEAL Â· KNOWLEDGE EXCHANGE</div><h2>Collaboration turns<br><em>practice into capacity.</em></h2><ul><li>5-day DRC HQ exchange on global standards &amp; advanced data integration</li><li>Hosted ROAD MEAL exchange visit, sharing best practices</li><li>Designed assessment tools for 14 local CBOs, RLOs &amp; SHGs</li><li>Strengthened partner capacity in data collection &amp; reporting</li></ul></div>
+  </section>
+
+  <section class="slide dark-slide" id="s13" data-title="Organizational resilience">
+    <div class="eyebrow pale">SECTION 03</div><h2>Organizational<br>resilience &amp;<br><em>resource mobilization</em></h2>
+    <p class="section-sub">DIVERSIFIED RESOURCES Â· LOCAL LEADERSHIP Â· SUSTAINABLE GROWTH</p>
+  </section>
+
+  <section class="slide light-slide" id="s14" data-title="Resilience architecture">
+    <div class="eyebrow">ORGANIZATIONAL RESILIENCE &amp; RESOURCE MOBILIZATION ARCHITECTURE</div>
+    <h2>Build the engine,<br><em>then widen the road.</em></h2>
+    <div class="three-column">
+      <article class="info-card ">
+      <h3>BASELINE STATE Â· 2022â€“2023</h3><p>â€¢ Sole reliance on donor grants<br>â€¢ No dedicated RM unit or staff<br>â€¢ Early income generation feasibility study<br>â€¢ Reactive, ad-hoc fundraising approach</p>
+    </article>
+      <article class="info-card warm">
+      <h3>TRANSITION &amp; GROWTH Â· 2024â€“2025</h3><p>â€¢ Formed dedicated RM Department<br>â€¢ Established RM Committee &amp; 3-member screening team<br>â€¢ Developed 3-year RM Strategy<br>â€¢ Built donor database &amp; proposal bank</p>
+    </article>
+      <article class="info-card dark">
+      <h3>KEY KPIs &amp; MILESTONES</h3><p>â€¢ 9-member RM Committee<br>â€¢ 15+ proposals submitted in 2025<br>â€¢ KES 86M secured (2024â€“2025)<br>â€¢ KES 27.32M new funding in 2025</p>
+    </article>
+    </div>
+  </section>
+
+  <section class="slide image-slide" id="s15" data-title="Taraji">
+    <div class="image-panel collage"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handicrafts bag" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handicrafts pouch" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">TARAJI HANDICRAFTS Â· INCOME GENERATION</div><h2>Income generation<br>with <em>identity.</em></h2><ul><li>Registered as a commercial business unit</li><li>KES 500,778.50 revenue generated in 2025</li><li>KES 195,000 raised in Q1 2026 alone</li><li>New location secured &amp; online store launched</li><li>Staffing expanded to meet growing demand</li><li>Products sold at marketplace stalls &amp; digital platforms</li></ul></div>
+  </section>
+
+  <section class="slide red-slide" id="s16" data-title="Private sector">
+    <div class="eyebrow pale">DOMESTIC FUNDRAISING &amp; PRIVATE SECTOR ENGAGEMENT</div>
+    <div class="split-intro"><div><h2>Make the mission<br><em>easy to join.</em></h2></div><div class="copy"><p>In 2025, HESED Africa achieved significant milestones in domestic fundraising, engaging 140+ corporate entities and raising KES 4.7M net through the Nourish A Child campaign. A landmark gala dinner further amplified private sector partnerships, driving sustainable resource mobilization.</p></div></div>
+    <div class="three-column"><article class="info-card ">
+      <h3>NOURISH A CHILD CAMPAIGN</h3><p>Raised KES 4.7M net in 2025. Mobilized communities and donors to support vulnerable children across HESED Africa's programs.</p>
+    </article><article class="info-card ">
+      <h3>CORPORATE PARTNER ENGAGEMENT</h3><p>Engaged 140+ corporate entities including Equity Group Foundation, Carrefour, and other leading private sector partners for sustained giving.</p>
+    </article><article class="info-card ">
+      <h3>GALA DINNER FUNDRAISER</h3><p>High-profile gala dinner event successfully convened key stakeholders, generating significant pledges and deepening long-term donor relationships.</p>
+    </article></div>
+  </section>
+
+  <section class="slide light-slide" id="s17" data-title="Governance and RTP">
+    <div class="eyebrow">GOVERNANCE &amp; RTP</div>
+    <h2>Resilience is also<br><em>who holds the work.</em></h2>
+    <div class="four-grid"><article class="info-card ">
+      <h3>BOARD RECONFIGURATION</h3><p>Board committees restructured with targeted governance training, strengthening oversight, accountability, and strategic leadership capacity across HESED Africa.</p>
+    </article><article class="info-card ">
+      <h3>2025â€“2029 STRATEGIC PLAN</h3><p>New 5-year Strategic Plan developed, embedding SMP gains and consolidating financial, MEAL, and resilience systems for sustained organizational growth.</p>
+    </article><article class="info-card ">
+      <h3>RTP FRAMEWORK: 90% COMPLETE</h3><p>Responsible Transition Plan (RTP) framework is 90% foundationally complete, with 14 local CBOs, RLOs, and SHGs profiled and strengthened for localization.</p>
+    </article><article class="info-card ">
+      <h3>CHARTER 4 CHANGE &amp; COMMUNITY</h3><p>Active participation in Charter 4 Change commitments alongside community health committee formation, reinforcing accountability and local leadership empowerment.</p>
+    </article></div>
+  </section>
+
+  <section class="slide red-slide" id="s18" data-title="Resilience KPIs">
+    <div class="eyebrow pale">ORGANIZATIONAL RESILIENCE: KEY KPIs &amp; IMPACT</div>
+    <div class="split-intro"><div><h2>Systems strengthening<br>with <em>numbers to prove it.</em></h2></div><div class="copy"><p>HESED Africa achieved transformational growth in resource mobilization and local leadership between 2024â€“2026. Bold KPIs reflect the depth of systems strengthening, diversified funding, and community empowerment across all program areas.</p></div></div>
+    <div class="stats"><article class="stat-card">
+      <strong>KES 86M</strong><span>SECURED Â· 2024â€“2025</span>
+      <small>Total resources mobilized across Danida SMP, co-financing, and diversified donor partnerships in the 2024â€“2025 funding cycle.</small>
+    </article><article class="stat-card">
+      <strong>KES 27.32M</strong><span>NEW FUNDING Â· 2025</span>
+      <small>New funding secured in 2025 alone, reflecting a robust proposal bank and active RM Committee with 9 members and 15+ proposals submitted.</small>
+    </article><article class="stat-card">
+      <strong>90%</strong><span>RTP FOUNDATION COMPLETE</span>
+      <small>14 local CBOs, RLOs &amp;amp; SHGs profiled and strengthened under the Responsible Transition Plan, embedding local leadership and sustainability.</small>
+    </article></div>
+  </section>
+
+  <section class="slide image-slide" id="s19" data-title="Integrated systems">
+    <div class="image-panel"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa engaging stakeholders at National NGO Week" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">INTEGRATED SYSTEMS Â· STRATEGIC COORDINATION</div><h2>One organization.<br><em>Many reinforcing systems.</em></h2><ul><li>Program Coordination Unit links RM, MEAL, Finance &amp; Programs for unified delivery</li><li>Enables executive focus on strategy, partnerships &amp; organizational growth</li><li>Updated HR, GESI, Safeguarding &amp; Partnership policies embedded across all units</li><li>Cross-functional collaboration drives accountability and operational excellence</li></ul></div>
+  </section>
+
+  <section class="slide cream-slide" id="s20" data-title="Closing">
+    <div class="eyebrow">CLOSING SUMMARY &amp; FUTURE OUTLOOK</div>
+    <h2>The work continues,<br><em>with stronger foundations.</em></h2>
+    <div class="closing-list"><ul><li>Strengthened financial systems with digital automation, audit compliance &amp; sustainability models</li><li>Digitized MEAL enabling real-time decision-making and community accountability</li><li>Diversified resource mobilization: KES 86M secured, Taraji growth &amp; private sector engagement</li><li>Committed to localization, resilient organizational growth &amp; local leadership empowerment</li></ul></div>
+    <div class="contact-line">info@hesedafrica.org <span>Â·</span> www.hesedafrica.org</div>
+  </section>
+
+  <section class="slide story-cover women-cover" id="s21" data-title="Womenâ€™s League story">
+    <div class="story-cover-content"><div class="eyebrow">SUCCESS STORY Â· 21 MAY / 29 JULY 2024</div><h2>Harnessing resources<br>to support <em>girlsâ€™ dignity.</em></h2><p>Partnership with the East African Womenâ€™s League Â· Heshima Primary School, Off Jogoo Road, Nairobi</p></div>
+    <div class="story-cover-photo"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Heshima Primary School students and HESED Africa team" loading="lazy"></div>
+  </section>
+
+  <section class="slide light-slide story-slide" id="s22" data-title="Womenâ€™s League background">
+    <div class="eyebrow">BACKGROUND Â· HESHIMA PRIMARY SCHOOL</div>
+    <h2>Dignity products protect<br><em>health, learning, and possibility.</em></h2>
+    <div class="copy two-col-copy"><p>Adolescent girls in underprivileged communities often face significant challenges in accessing hygiene products, which are essential for their health, dignity, and uninterrupted schooling. It goes without saying, education, health, and hygiene, are deeply interconnected, especially for children. A child who is not in good health cannot fully benefit from the learning process. Likewise, without the right support in forming healthy attitudes, beliefs, and habits early on, an individual is more likely to face reduced productivity later in life. At Heshima Primary School and many other schools in low income areas in Kenya, the limited access to these kits, has long been a challenge, leading to absenteeism and discomfort among girls during their menstrual cycle.</p><p>Understanding the gravity of the challenges young girls face in accessing essential items like pads, underwear, soap, and other dignity products, HESED Africa joined forces with East African Womenâ€™s Leagueâ€“â€“both dedicated to promoting the health, dignity, and overall well-being of women and girls. Through this partnership we provided immediate support through the distribution of essential dignity kits. Additionally, our sexual and reproductive health nurse, along with the Kamukunji School Health Coordinator, took the time to empower these young girls with valuable knowledge about menstrual hygiene management, helping them navigate this important phase of their lives with confidence. The donor gave an empowering talk on the importance of the girl child today and in the future, the role of a girls in society, and the personal and community factors that shape their growth. She also encouraged the girls to set ambitious career goals and offered guidance on how to achieve them.</p></div>
+  </section>
+
+  <section class="slide image-slide" id="s23" data-title="Womenâ€™s League activity">
+    <div class="image-panel collage"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Dignity kits and school engagement" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="East African Womenâ€™s League and HESED Africa activity" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">INTRODUCTION Â· PARTNERSHIP IN ACTION</div><h2>A pitch became<br><em>a room full of confidence.</em></h2><p>At HESED Africa, we are dedicated to supporting the health and well-being of adolescents as a cornerstone for fostering dignified lives. This commitment motivates us to continually support schools through in-school health sessions and distribution of dignity kits to adolescents, including boys. On May 21st, 2024, through our resource mobilization efforts of leveraging our networks to secure appointments with trusts, we seized a valuable opportunity to engage with the East African Womenâ€™s League, Lavington branch. During our presentation, we shared insights into our programs, and one initiative that truly resonated with the members was our school health program, which provides essential health education and dignity kits to adolescent. This program is implemented in partnership with the Nairobi County School Health Program, reinforcing our collaborative efforts to improve the lives of young people in our community.</p></div>
+  </section>
+
+  <section class="slide light-slide story-slide" id="s24" data-title="Womenâ€™s League details">
+    <div class="eyebrow">THE SESSION Â· 77 GRADE 8 GIRLS</div>
+    <h2>One donation.<br><em>Many layers of impact.</em></h2>
+    <p>On a bright Monday afternoon in July, beneath the shade of leafy trees at Heshima Primary School, we held a unique in-school session with 77 Grade 8 adolescent girls. This activity was made possible through a generous donation of KSH 30,000 from the East African Womenâ€™s League, which directly funded essential dignity kits for the girls. Each kit was thoughtfully packaged in colourful drawstring bags handcrafted by women from HESED Africaâ€™s livelihoods program. The day was further enriched with an empowering talk from the donor, as well as a session on menstrual health hygiene talk by our sexual and reproductive health nurse alongside the Kamukunji Sub County school health coordinator. The event not only marked a milestone in supporting young girls during a critical stage of their lives but also showcased the power of partnerships and the impact of well-coordinated resource mobilization efforts.</p>
+    <div class="stat-row"><article class="stat-card">
+      <strong>77</strong><span>GRADE 8 ADOLESCENT GIRLS</span>
+      
+    </article><article class="stat-card">
+      <strong>KSH 30,000</strong><span>DONATION</span>
+      
+    </article><article class="stat-card">
+      <strong>01</strong><span>SCHOOL HEALTH SESSION</span>
+      
+    </article></div>
+  </section>
+
+  <section class="slide red-slide story-slide" id="s25" data-title="Womenâ€™s League impact">
+    <div class="eyebrow pale">IMPACT Â· EAST AFRICAN WOMENâ€™S LEAGUE</div>
+    <div class="impact-stack"><article class="info-card ">
+      <h3>DIVERSIFIED FUNDING FOR HESED AFRICAâ€™S PROGRAMS</h3><p>This initiative exemplified the tangible benefits of our resource mobilization strategy of directly engaging with trusts that provide funding to charitable causes. By leveraging our networks, preparing and delivering a successful pitch, and securing a new funding stream from East African Womenâ€™s League, HESED Africa was able to address a critical need in the community while simultaneously empowering the women in its livelihood program. This outcome illustrates the far-reaching effects of diversifying and expanding resources, as outlined in our resource mobilization strategy Objective 1: To increase and diversify funding for our programmes and projects. This initiative was also a valuable learning experience for us, as we gained insights into how East African Womenâ€™s League fundraise for their initiatives and drive their mission forward.</p>
+    </article><article class="info-card ">
+      <h3>INCREASED VISIBILITY</h3><p>At HESED Africa, we believe that when people are informed and inspired about our programs, they are more likely to take action and support our mission. By raising awareness about our programs within the East African Womenâ€™s League, we have expanded our visibility in ways that are crucial for future growth. The League, a well-connected organization with branches across the country, is now familiar with our impact on the community. This positions us favourably, as they can advocate for our work, share our mission through their engagements, and open doors to further opportunities within their networks and beyond.</p>
+    </article></div>
+  </section>
+
+  <section class="slide light-slide story-slide" id="s26" data-title="Womenâ€™s League impact">
+    <div class="eyebrow">IMPACT Â· EMPOWERMENT &amp; LIVELIHOODS</div>
+    <div class="two-impact"><article class="info-card ">
+      <h3>FOSTERED SENSE OF EMPOWERMENT FOR THE ADOLESCENT GIRLS OF HESHIMA PRIMARY SCHOOL</h3><p>The funds secured from the East African Womenâ€™s League, directly went towards supporting 77 adolescent girlsâ€™ education and well-being with dignity kits containing, sanitary pads, underwear, soap, lotion, toothbrush, toothpaste, and a comb. The impact of this contribution extended far beyond the financial value. The girls, many of whom struggle with access to proper hygiene products, received much-needed support to help them stay in school without interruptions caused by menstruation. Additionally, the activity provided an empowering platform for the girls, featuring a motivation talk by the donor that resonated deeply with the young girls, inspiring them to aim high in their academic and personal lives. Moreover, the session on menstrual hygiene management equipped the girls with practical knowledge, enabling them to better understand their bodies and manage their menstrual health with confidence and dignity. This holistic approach not only boosted their self-esteem but also fostered a supportive environment that encouraged them to stay engaged in their education.</p>
+    </article><article class="info-card ">
+      <h3>SHOWCASING IMPACT OF THE LIVELIHOODS PROGRAM</h3><p>Each dignity kit, thoughtfully packaged in a colourful drawstring bag made my women in HESED Africaâ€™s livelihood program, was a powerful representation of the impact of the program, as well as the craftsmanship and commitment of the women behind the creations. These women, who have limited economic opportunities, found both purpose and earned income through sewing the bags. The handmade bags added a personal touch, reinforcing the message that the young girls are seen, valued, and supported. This initiative highlighted the broader impact of the livelihoods programâ€“â€“empowering women economically while helping them develop valuable skills through taking part in meaningful social initiatives.</p>
+    </article></div>
+  </section>
+
+  <section class="slide image-slide" id="s27" data-title="Womenâ€™s League conclusion">
+    <div class="image-panel"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Students, school leadership, East African Womenâ€™s League representative and HESED Africa team" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">CONCLUSION Â· A PARTNERSHIP WITH A LONG TAIL</div><h2>â€œThe joy of the girlsâ€™ faces<br>was undeniable.â€</h2><p>â€œThe joy of the girlsâ€™ faces was undeniable,â€ remarked J. Ogundo, a member of the East African Womenâ€™s League, who attended the in-school activity. This success is a testament to the potential that lies in directly engaging local trusts to secure additional funding. Our ability to expand our reach and secure necessary funding to support our school health program has enabled us explore new avenues for impact. As we continue to diversify our funding sources and deepen our partnerships, the future holds endless possibilitiesâ€“â€“not just for the young adolescent girls at Heshima Primary School, but for all the communities we serve.</p><div class="metadata">East African Womenâ€™s League representative presents dignity kits to Heshima Primary School Students<br><b>Date:</b> 29th July 2024 Â· <b>Location:</b> Heshima Primary School, Off Jogoo Road, Nairobi Â· <b>Photo Credit:</b> Communications, HESED Africa</div></div>
+  </section>
+
+  <section class="slide story-cover golf-cover" id="s28" data-title="Golf story">
+    <div class="story-cover-content"><div class="eyebrow">SUCCESS STORY Â· 23 AUGUST 2024</div><h2>Teeing off for a cause<br>in the lush greens of the<br><em>Royal Nairobi Golf Club.</em></h2><p>Charity golf event hosted by the Catholic Men Association of Don Bosco Upperhill Church</p></div>
+    <div class="story-cover-photo"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Royal Nairobi Golf Club charity event" loading="lazy"></div>
+  </section>
+
+  <section class="slide light-slide story-slide" id="s29" data-title="Golf background">
+    <div class="eyebrow">BACKGROUND Â· A DIFFERENT KIND OF BALL</div>
+    <h2>Partnerships meet<br><em>possibility.</em></h2>
+    <div class="copy two-col-copy"><p>HESED Africa and Don Bosco align in their missions to support vulnerable populations, particularly youth and children. HESED Africa empowers urban refugees and vulnerable local communities in Kenya, while Don Bosco is dedicated to uplift the lives of the poorest and most abandoned young people globally. This alignment motivated our participation in the fundraiser, which aimed to address the urgent needs of the communities we serve.</p><p>Our commitment to fostering meaningful change and diversify and expand our resources motivated our involvement in this high-profile charity event, a key element of our resource mobilization strategy. Our participation aimed to build relationships with potential donors, corporate sponsors, and benefactors who align with our mission. Furthermore, the event offered a valuable platform to promote our income generating activity program, increasing our visibility and generating interest to our programs.</p></div>
+  </section>
+
+  <section class="slide image-slide" id="s30" data-title="Golf event">
+    <div class="image-panel collage"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa products at the golf event" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Charity golf event engagement" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">INTRODUCTION Â· ROYAL NAIROBI GOLF CLUB</div><h2>At the heart of the course,<br><em>empowerment took the stage.</em></h2><p>At the heart of the Royal Nairobi Golf Club, surrounded by lush greens, HESED Africa stood out as the sole non-governmental organization, driving a different kind of ball â€“ one of empowerment for marginalized communities. The charity golf event, hosted by the Catholic Men Association of Don Bosco Upperhill Church on August 23rd, 2024, presented a unique opportunity for HESED Africa to raise awareness about its programs, build partnerships, and showcase the incredible talents of our artisans through products made from our resource mobilization workshop. We were proudly represented by our golfer, who gave us an impressive performance on the course. The day culminated in a successful fundraising effort, with a little over Ksh 15,000 through the sale of Ankara products produced from newly launched income generating activity (shop) at the tent and a lively auction during the dinner. These funds will go directly toward supporting economic empowerment initiatives, helping us continue to support underserved communities.</p></div>
+  </section>
+
+  <section class="slide red-slide story-slide" id="s31" data-title="Golf impact">
+    <div class="eyebrow pale">IMPACT Â· DIRECT ENGAGEMENT &amp; VISIBILITY</div>
+    <div class="impact-stack"><article class="info-card ">
+      <h3>DIRECT ENGAGEMENT WITH LIKEMINDED CHARITIES</h3><p>HESED Africaâ€™s participation in the charity golf event was a resounding success and marked an important milestone for us. As our first major resource mobilization event, it affirmed the effectiveness of our resource mobilization strategy, which focuses on direct engagement with foundations, trusts, and the broader community, as well as generating our own funds through our fashion and design initiative. Throughout the event, we made sales during the day and auctioned products from our income-generating activities during the evening dinner. This success brings us closer to achieving our two key resource mobilization objectives: increasing and diversifying funding for HESED Africaâ€™s programs and strengthening partnerships with the government, private sector, and other NGOs.</p>
+    </article><article class="info-card ">
+      <h3>ENHANCING VISIBILITY</h3><p>The event offered us an excellent platform to enhance the visibility of both our organization and our income-generating activities, as well as that of our partner organization, the Danish Refugee Council (DRC). We set up a tent with two stands â€“â€“ one dedicated to showcasing and selling our products, and the other focused on engaging visitors and sharing our brochures and flyers that highlight our programs. This setup not only allowed us to raise awareness about HESED Africaâ€™s mission but also provided an opportunity to highlight the localization agenda that DRC is implementing through HESED and partners, while connecting directly with potential partners, sponsors, and supporters. Some of these partners include, Kingdom Bank, Cfao Mobility Kenya, Lofty Corban, Standard Chartered Kenya, Arwa &amp; Change Advocated, among others.</p>
+    </article></div>
+  </section>
+
+  <section class="slide light-slide story-slide" id="s32" data-title="Golf lessons">
+    <div class="eyebrow">IMPACT Â· LEARNING, LIVELIHOODS &amp; NETWORKING</div>
+    <div class="two-impact"><article class="info-card ">
+      <h3>LEARNING LESSONS FOR FUTURE ENGAGEMENTS WITH SPONSORS, FRIENDS AND DONORS</h3><p>Our involvement in this event set a strong foundation for organizing similar fundraising activities in the future. Over breakfast during the day of the event, we had a chance to build rapport with the event organizer, who shared valuable insights into planning such events, and we, in turn, shared more about the work HESED Africa does. This meaningful exchange not only strengthened our relationship but also laid the groundwork for potential collaborations in the future. Additionally, we identified and engaged potential sponsors, building our donor profile database by collecting their contact information in our visitorsâ€™ book. We plan to reach out to these contacts for our future fundraising initiatives targeting the private sector and high-net-worth individuals.</p>
+    </article><article class="info-card ">
+      <h3>SHOWCASING IMPACT OF THE LIVELIHOODS PROGRAM</h3><p>A standout moment was the presence of our artisan at the fundraising stand, where she showcased her unique creations highlighting her journey of empowerment through HESED Africa. Attendees were genuinely impressed by the quality of her work, which led to several pieces being auctioned off during the dinner, significantly contributing to our resource mobilization efforts as well as our visibility. This demonstrates the effectiveness of our livelihood program, which equips the women with the skills needed to thrive in both local and international markets. Ultimately, the event reinforced our commitment to empowering vulnerable communities by equipping them with vital skills, connecting them with opportunities, and ultimately supporting them on their path to self-reliance.</p>
+    </article></div>
+  </section>
+
+  <section class="slide image-slide" id="s33" data-title="Golf representation">
+    <div class="image-panel"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Golfer representing HESED Africa at the tournament" loading="lazy"></div>
+    <div class="image-copy"><div class="eyebrow">MAXIMIZING VISIBILITY &amp; NETWORKING THROUGH PRO GOLFER REPRESENTATION</div><h2>33 points.<br><em>One wider network.</em></h2><p>Our golfer, Arwa, represented HESED Africa with great distinction at the tournament, scoring an impressive 33 points over the 18-hole championship course. Her remarkable performance earned her recognition during the dinner, where received a well-deserved award. The golf club expressed interest in having her participate in other tournaments, opening more opportunities for HESED to expand our network. Arwaâ€™s achievement not only showcased her talent but also provided us with a valuable opportunity to engage with a wider audience, allowing us to raise awareness about our mission significantly enhancing our visibility.</p><div class="metadata"><b>Guests shopping for artisan products at the tent</b><br>Date: 23rd August 2024 Â· Location: Royal Nairobi Golf Club, Ngong Road, Nairobi Â· Photo Credit: Communications, HESED Africa</div></div>
+  </section>
+
+  <section class="slide cream-slide story-slide" id="s34" data-title="Golf conclusion">
+    <div class="eyebrow">CONCLUSION Â· THE NEXT STEP</div>
+    <h2>â€œThe journey of a thousand miles<br>begins with <em>a single step.â€</em></h2>
+    <p>Reflecting on the success of our resource mobilization at the charity golf event, we are inspired by the momentum weâ€™ve built and the valuable connections weâ€™ve established. As Lao Tzu reminds us, â€˜The journey of a thousand miles begins with a single step.â€™ Each connection made and every dollar raised, brings us closer to fulfilling our mission of diversifying and expanding our resources, reducing reliance on limited funding streams, ensuring financial stability for our programs, and fostering sustainability in our efforts to empower vulnerable communities.</p>
+    <div class="metadata">An artisan from HESED Africa livelihood program arranging her unique creations Â· The Executive Director of HESED Africa engaging with a guest at the event Â· The Resource Mobilization Manager receiving the award on behalf of the golfer at the dinner<br><b>Date:</b> 23rd August 2024 Â· <b>Location:</b> Royal Nairobi Golf Club, Ngong Road, Nairobi Â· <b>Photo Credits:</b> Communications, HESED Africa; Don Bosco Upperhill</div>
+  </section>
+
+  <section class="slide gallery-slide" id="s35" data-title="Gallery">
+    <div class="eyebrow">GALLERY Â· FIELD NOTES</div>
+    <h2>Evidence of the work,<br><em>in motion.</em></h2>
+    <div class="mini-gallery">
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji artisan creating a product" loading="lazy"><figcaption>Taraji products</figcaption></figure>
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handcrafted bag" loading="lazy"><figcaption>Taraji products</figcaption></figure>
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handcrafted pouch" loading="lazy"><figcaption>Taraji products</figcaption></figure>
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handcrafted textile product" loading="lazy"><figcaption>Taraji products</figcaption></figure>
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa event engagement" loading="lazy"><figcaption>Under Monitoring and evaluation</figcaption></figure>
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Project Cycle Management Training" loading="lazy"><figcaption>Project Cycle Management Training</figcaption></figure>
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Project Cycle Management Training" loading="lazy"><figcaption>Project Cycle Management Training</figcaption></figure>
+      <figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="National NGOâ€™s week stakeholder engagement" loading="lazy"><figcaption>UNDER â€“ Organization resilience Â· At the national NGOâ€™s week (Courtesy of the DRC-C4C linkage) event engaging stakeholders</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="slide thank-slide" id="s36" data-title="Thank you">
+    <div class="eyebrow">HESED AFRICA</div>
+    <h2>Thank you.</h2>
+    <p>info@hesedafrica.org <span>Â·</span> www.hesedafrica.org</p>
+    <div class="thank-logos"><div class="logo-row">
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Danish Refugee Council logo" loading="lazy"><span>DRC</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa logo" loading="lazy"><span>HESED Africa</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Ministry of Foreign Affairs of Denmark Danida logo" loading="lazy"><span>DANIDA</span></div>
+</div></div>
+  </section>
+</main>
+
+
+<main id="fullPage" class="full-page-view" aria-label="Full-page reading view">
+  <section class="report-hero"><div class="report-hero-inner"><div><div class="eyebrow">HESED AFRICA Â· COMPLETE PRESENTATION REPORT</div><h1>Strengthening systems.<br><em>Expanding dignity.</em></h1><p class="lede">Financial management, MEAL &amp; organizational resilience (2022â€“2026), with two field success stories and a visual gallery.</p></div><div class="report-hero-art"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Handcrafted Taraji product" loading="lazy"></div></div></section>
+  <section class="reader-section" id="read-program"><div class="reader-kicker">01 Â· THE PROGRAM</div><h2>Sustainability Model Program (SMP)</h2><p>The Sustainability Model Program (SMP) was a five-year initiative implemented through a collaboration between the Danish Refugee Council (DRC) and five local organizations, including the Foundation for Health and Social Economic Development (HESED) Africa. The programâ€™s primary objective was to advance the localization of humanitarian response in Kenya. It was funded by the Ministry of Foreign Affairs of Denmark (DANIDA).The program prioritizes institutional capacity development to strengthen local organizations and enable them to operate more effectively, sustainably, and resiliently.</p><p>Localization is at the heart of DRCâ€™s organizational approach, promoting local leadership in responding to the needs of communities affected by conflict and displacement. By investing in the capacity of local organizations, the program supports them to grow, lead community-based solutions, and deliver more effective services to the populations they serve.</p><div class="logo-row">
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Danish Refugee Council logo" loading="lazy"><span>DRC</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa logo" loading="lazy"><span>HESED Africa</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Ministry of Foreign Affairs of Denmark Danida logo" loading="lazy"><span>DANIDA</span></div>
+</div></section>
+  <section class="reader-section tinted" id="read-timeline"><div class="reader-kicker">02 Â· EXECUTIVE SUMMARY &amp; TIMELINE OVERVIEW</div><h2>2022â€“2026 at a glance</h2><div class="reader-timeline"><div><b>2022</b><h3>Baseline</h3><p>Manual finance, paper M&amp;E, donor-only funding. Danida SMP grant secured. RM feasibility study launched.</p></div><div><b>2023</b><h3>QuickBooks + KoboToolbox</h3><p>QuickBooks multi-user rollout. KoboToolbox mobile data collection deployed. RM department &amp; committee formed.</p></div><div><b>2024</b><h3>Digital transformation</h3><p>Power BI dashboards, FCRM database. KES 86M resource mobilization. Taraji Handicrafts registered.</p></div><div><b>2025â€“2026</b><h3>Consolidation</h3><p>100% audit compliance, KES 27.32M new funding, 90% RTP foundation, 14 local groups profiled &amp; strengthened.</p></div></div></section>
+  <section class="reader-section" id="read-finance"><div class="reader-kicker">03 Â· FINANCIAL MANAGEMENT</div><h2>Financial Management</h2><div class="reader-grid"><article class="info-card ">
+      <h3>BASELINE STATE (2022â€“2023)</h3><p>Manual, single-user QuickBooks; ad-hoc budgeting; no procurement separation; limited financial controls &amp; policies.</p>
+    </article><article class="info-card warm">
+      <h3>TRANSITION &amp; CAPACITY (2024â€“2025)</h3><p>Multi-user QuickBooks system; dedicated procurement function; formalized financial policies; annual external audits introduced.</p>
+    </article><article class="info-card dark">
+      <h3>CONSOLIDATION &amp; OUTCOMES</h3><p>Full finance/procurement separation; 100% audit compliance; standardized templates; independent co-financing budget management.</p>
+    </article></div><h3>Financial systems</h3><div class="reader-grid"><article class="info-card ">
+      <h3>DIGITAL FINANCIAL FILING</h3><p>Fully automated digital financial filing system with cloud-based document management, eliminating manual processes and ensuring real-time access to financial records.</p>
+    </article><article class="info-card ">
+      <h3>REQUISITION TEMPLATES</h3><p>Standardized requisition templates deployed across all departments, streamlining procurement workflows and ensuring consistent financial controls organization-wide.</p>
+    </article><article class="info-card ">
+      <h3>PEER-TO-PEER LEARNING</h3><p>5-day exchange learning event with SIR partners, benchmarking best practices and sharing QuickBooks multi-user features for enhanced financial collaboration.</p>
+    </article><article class="info-card ">
+      <h3>INDEPENDENT BUDGET MANAGEMENT</h3><p>Independent budget management for co-financing with KES 1M (20%) co-financing ratio, enabling autonomous tracking of sustainability budget of KES 6M.</p>
+    </article></div><h3>Financial Management: Key KPIs &amp; Controls</h3><p>Robust financial controls and KPI tracking underpin HESED Africa's accountability and sustainability. Monthly budget-versus-actual reviews, 100% audit compliance, and a centralized asset register ensure transparent, efficient resource stewardship across all programs.</p><div class="reader-stats"><article class="stat-card">
+      <strong>KES 6M</strong><span>SUSTAINABILITY BUDGET</span>
+      <small>KES 6M sustainability budget with 20% co-financing (KES 1M). Monthly budget-versus-actual tracking across all cost centres and donor lines.</small>
+    </article><article class="stat-card">
+      <strong>100%</strong><span>AUDIT COMPLIANCE</span>
+      <small>Unqualified audit opinions achieved consistently. Full compliance with donor financial requirements and internal procurement controls.</small>
+    </article><article class="stat-card">
+      <strong>CENTRALIZED</strong><span>ASSET REGISTER</span>
+      <small>Fully centralized asset register with depreciation tracking. Standardized requisition templates and digital payment voucher system in place.</small>
+    </article></div><h3>Peer Exchange &amp; Sustainability</h3><p>5-Day Learning Event with SIR: Benchmarking financial systems and sharing QuickBooks best practices across organizations.</p><ul><li>QuickBooks multi-user feature sharing and workflow alignment</li><li>Budget-versus-actual tracking methodology exchange</li><li>Strengthened inter-agency financial accountability standards</li><li>Peer-validated procurement and requisition processes</li></ul></section>
+  <section class="reader-section tinted" id="read-meal"><div class="reader-kicker">04 Â· MEAL</div><h2>Monitoring, Evaluation, Accountability &amp; Learning</h2><h3>MEAL Baseline &amp; Digital Transformation</h3><div class="reader-grid"><article class="info-card ">
+      <h3>BASELINE</h3><p>Paper-based surveys &amp; manual data entry. Reactive M&amp;E with no centralized databases. Fragmented reporting and limited real-time visibility.</p>
+    </article><article class="info-card warm">
+      <h3>DIGITAL TRANSITION</h3><p>KoboToolbox mobile data collection deployed. Power BI dashboards introduced for real-time reporting. Staff trained on digital data tools and indicator tracking.</p>
+    </article><article class="info-card dark">
+      <h3>CONSOLIDATED IMPACT</h3><p>Master Impact Database established. 100% data accuracy via DQAs &amp; audits. Real-time insights enabling evidence-based decision-making across all programs.</p>
+    </article></div><h3>MEAL Accountability &amp; Feedback Mechanisms</h3><ul><li>FCRM database for systematic beneficiary feedback tracking</li><li>Suggestion boxes, website portals &amp; dedicated phone lines</li><li>Urban refugee accountability forums &amp; community dialogues</li><li>Concept note: digital toll-free feedback line for real-time input</li></ul><h3>MEAL Data Quality &amp; Learning</h3><ul><li><b>100% Data Accuracy</b> achieved through regular Data Quality Audits (DQAs) and independent data reviews</li><li>Monthly Lessons Learned database maintained and reviewed in staff meetings</li><li>Mandatory project kick-offs briefing all staff on indicator definitions, targets, and data tools</li><li>Brown-bag sessions conducted on data storytelling, KoboToolbox, and Power BI tools</li><li>Standardized indicator tracking across all programs for consistency and reliability</li></ul><h3>MEAL Knowledge Exchange</h3><ul><li>5-day DRC HQ exchange on global standards &amp; advanced data integration</li><li>Hosted ROAD MEAL exchange visit, sharing best practices</li><li>Designed assessment tools for 14 local CBOs, RLOs &amp; SHGs</li><li>Strengthened partner capacity in data collection &amp; reporting</li></ul></section>
+  <section class="reader-section" id="read-resilience"><div class="reader-kicker">05 Â· ORGANIZATIONAL RESILIENCE &amp; RESOURCE MOBILIZATION</div><h2>Organizational resilience &amp; resource mobilization architecture</h2><div class="reader-grid"><article class="info-card ">
+      <h3>BASELINE STATE (2022â€“2023)</h3><p>â€¢ Sole reliance on donor grants<br>â€¢ No dedicated RM unit or staff<br>â€¢ Early income generation feasibility study<br>â€¢ Reactive, ad-hoc fundraising approach</p>
+    </article><article class="info-card warm">
+      <h3>TRANSITION &amp; GROWTH (2024â€“2025)</h3><p>â€¢ Formed dedicated RM Department<br>â€¢ Established RM Committee &amp; 3-member screening team<br>â€¢ Developed 3-year RM Strategy<br>â€¢ Built donor database &amp; proposal bank</p>
+    </article><article class="info-card dark">
+      <h3>KEY KPIs &amp; MILESTONES</h3><p>â€¢ 9-member RM Committee<br>â€¢ 15+ proposals submitted in 2025<br>â€¢ KES 86M secured (2024â€“2025)<br>â€¢ KES 27.32M new funding in 2025</p>
+    </article></div><h3>Taraji Handicrafts Â· Income Generation</h3><div class="image-text"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handcrafted bag" loading="lazy"><div><ul><li>Registered as a commercial business unit</li><li>KES 500,778.50 revenue generated in 2025</li><li>KES 195,000 raised in Q1 2026 alone</li><li>New location secured &amp; online store launched</li><li>Staffing expanded to meet growing demand</li><li>Products sold at marketplace stalls &amp; digital platforms</li></ul></div></div><h3>Domestic Fundraising &amp; Private Sector Engagement</h3><p>In 2025, HESED Africa achieved significant milestones in domestic fundraising, engaging 140+ corporate entities and raising KES 4.7M net through the Nourish A Child campaign. A landmark gala dinner further amplified private sector partnerships, driving sustainable resource mobilization.</p><div class="reader-grid"><article class="info-card ">
+      <h3>NOURISH A CHILD CAMPAIGN</h3><p>Raised KES 4.7M net in 2025. Mobilized communities and donors to support vulnerable children across HESED Africa's programs.</p>
+    </article><article class="info-card ">
+      <h3>CORPORATE PARTNER ENGAGEMENT</h3><p>Engaged 140+ corporate entities including Equity Group Foundation, Carrefour, and other leading private sector partners for sustained giving.</p>
+    </article><article class="info-card ">
+      <h3>GALA DINNER FUNDRAISER</h3><p>High-profile gala dinner event successfully convened key stakeholders, generating significant pledges and deepening long-term donor relationships.</p>
+    </article></div><h3>Governance &amp; RTP</h3><div class="reader-grid"><article class="info-card ">
+      <h3>BOARD RECONFIGURATION</h3><p>Board committees restructured with targeted governance training, strengthening oversight, accountability, and strategic leadership capacity across HESED Africa.</p>
+    </article><article class="info-card ">
+      <h3>2025â€“2029 STRATEGIC PLAN</h3><p>New 5-year Strategic Plan developed, embedding SMP gains and consolidating financial, MEAL, and resilience systems for sustained organizational growth.</p>
+    </article><article class="info-card ">
+      <h3>RTP FRAMEWORK: 90% COMPLETE</h3><p>Responsible Transition Plan (RTP) framework is 90% foundationally complete, with 14 local CBOs, RLOs, and SHGs profiled and strengthened for localization.</p>
+    </article><article class="info-card ">
+      <h3>CHARTER 4 CHANGE &amp; COMMUNITY</h3><p>Active participation in Charter 4 Change commitments alongside community health committee formation, reinforcing accountability and local leadership empowerment.</p>
+    </article></div><h3>Organizational Resilience: Key KPIs &amp; Impact</h3><p>HESED Africa achieved transformational growth in resource mobilization and local leadership between 2024â€“2026. Bold KPIs reflect the depth of systems strengthening, diversified funding, and community empowerment across all program areas.</p><div class="reader-stats"><article class="stat-card">
+      <strong>KES 86M</strong><span>SECURED (2024â€“2025)</span>
+      <small>Total resources mobilized across Danida SMP, co-financing, and diversified donor partnerships in the 2024â€“2025 funding cycle.</small>
+    </article><article class="stat-card">
+      <strong>KES 27.32M</strong><span>NEW FUNDING (2025)</span>
+      <small>New funding secured in 2025 alone, reflecting a robust proposal bank and active RM Committee with 9 members and 15+ proposals submitted.</small>
+    </article><article class="stat-card">
+      <strong>90%</strong><span>RTP FOUNDATION COMPLETE</span>
+      <small>14 local CBOs, RLOs &amp;amp; SHGs profiled and strengthened under the Responsible Transition Plan, embedding local leadership and sustainability.</small>
+    </article></div></section>
+  <section class="reader-section tinted" id="read-integrated"><div class="reader-kicker">06 Â· INTEGRATED SYSTEMS</div><h2>Strategic coordination</h2><ul><li>Program Coordination Unit links RM, MEAL, Finance &amp; Programs for unified delivery</li><li>Enables executive focus on strategy, partnerships &amp; organizational growth</li><li>Updated HR, GESI, Safeguarding &amp; Partnership policies embedded across all units</li><li>Cross-functional collaboration drives accountability and operational excellence</li></ul><h2>Closing summary &amp; future outlook</h2><ul><li>Strengthened financial systems with digital automation, audit compliance &amp; sustainability models</li><li>Digitized MEAL enabling real-time decision-making and community accountability</li><li>Diversified resource mobilization: KES 86M secured, Taraji growth &amp; private sector engagement</li><li>Committed to localization, resilient organizational growth &amp; local leadership empowerment</li></ul><div class="contact-line">info@hesedafrica.org Â· www.hesedafrica.org</div></section>
+  <section class="reader-section story-reader" id="read-women"><div class="reader-kicker">07 Â· SUCCESS STORY</div><h2>Harnessing resources to support girlsâ€™ dignity</h2><div class="story-meta">Date: 21st May 2024 Â· Location: Heshima Primary School, Off Jogoo Road, Nairobi Â· Photo Credit: Communications, HESED Africa</div><div class="image-strip"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Heshima Primary students and HESED Africa team" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Dignity kits at Heshima Primary School" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Partnership activity at Heshima Primary School" loading="lazy"></div><h3>Background</h3><p>Adolescent girls in underprivileged communities often face significant challenges in accessing hygiene products, which are essential for their health, dignity, and uninterrupted schooling. It goes without saying, education, health, and hygiene, are deeply interconnected, especially for children. A child who is not in good health cannot fully benefit from the learning process. Likewise, without the right support in forming healthy attitudes, beliefs, and habits early on, an individual is more likely to face reduced productivity later in life. At Heshima Primary School and many other schools in low income areas in Kenya, the limited access to these kits, has long been a challenge, leading to absenteeism and discomfort among girls during their menstrual cycle.</p><p>Understanding the gravity of the challenges young girls face in accessing essential items like pads, underwear, soap, and other dignity products, HESED Africa joined forces with East African Womenâ€™s Leagueâ€“â€“both dedicated to promoting the health, dignity, and overall well-being of women and girls. Through this partnership we provided immediate support through the distribution of essential dignity kits. Additionally, our sexual and reproductive health nurse, along with the Kamukunji School Health Coordinator, took the time to empower these young girls with valuable knowledge about menstrual hygiene management, helping them navigate this important phase of their lives with confidence. The donor gave an empowering talk on the importance of the girl child today and in the future, the role of a girls in society, and the personal and community factors that shape their growth. She also encouraged the girls to set ambitious career goals and offered guidance on how to achieve them.</p><h3>Introduction</h3><p>At HESED Africa, we are dedicated to supporting the health and well-being of adolescents as a cornerstone for fostering dignified lives. This commitment motivates us to continually support schools through in-school health sessions and distribution of dignity kits to adolescents, including boys. On May 21st, 2024, through our resource mobilization efforts of leveraging our networks to secure appointments with trusts, we seized a valuable opportunity to engage with the East African Womenâ€™s League, Lavington branch. During our presentation, we shared insights into our programs, and one initiative that truly resonated with the members was our school health program, which provides essential health education and dignity kits to adolescent. This program is implemented in partnership with the Nairobi County School Health Program, reinforcing our collaborative efforts to improve the lives of young people in our community.</p><p>On a bright Monday afternoon in July, beneath the shade of leafy trees at Heshima Primary School, we held a unique in-school session with 77 Grade 8 adolescent girls. This activity was made possible through a generous donation of KSH 30,000 from the East African Womenâ€™s League, which directly funded essential dignity kits for the girls. Each kit was thoughtfully packaged in colourful drawstring bags handcrafted by women from HESED Africaâ€™s livelihoods program. The day was further enriched with an empowering talk from the donor, as well as a session on menstrual health hygiene talk by our sexual and reproductive health nurse alongside the Kamukunji Sub County school health coordinator. The event not only marked a milestone in supporting young girls during a critical stage of their lives but also showcased the power of partnerships and the impact of well-coordinated resource mobilization efforts.</p><h3>Impact</h3><div class="reader-grid"><article class="info-card ">
+      <h3>Diversified funding for HESED Africaâ€™s programs</h3><p>This initiative exemplified the tangible benefits of our resource mobilization strategy of directly engaging with trusts that provide funding to charitable causes. By leveraging our networks, preparing and delivering a successful pitch, and securing a new funding stream from East African Womenâ€™s League, HESED Africa was able to address a critical need in the community while simultaneously empowering the women in its livelihood program. This outcome illustrates the far-reaching effects of diversifying and expanding resources, as outlined in our resource mobilization strategy Objective 1: To increase and diversify funding for our programmes and projects. This initiative was also a valuable learning experience for us, as we gained insights into how East African Womenâ€™s League fundraise for their initiatives and drive their mission forward.</p>
+    </article><article class="info-card ">
+      <h3>Increased visibility</h3><p>At HESED Africa, we believe that when people are informed and inspired about our programs, they are more likely to take action and support our mission. By raising awareness about our programs within the East African Womenâ€™s League, we have expanded our visibility in ways that are crucial for future growth. The League, a well-connected organization with branches across the country, is now familiar with our impact on the community. This positions us favourably, as they can advocate for our work, share our mission through their engagements, and open doors to further opportunities within their networks and beyond.</p>
+    </article><article class="info-card ">
+      <h3>Fostered sense of empowerment for the adolescent girls of Heshima Primary School</h3><p>The funds secured from the East African Womenâ€™s League, directly went towards supporting 77 adolescent girlsâ€™ education and well-being with dignity kits containing, sanitary pads, underwear, soap, lotion, toothbrush, toothpaste, and a comb. The impact of this contribution extended far beyond the financial value. The girls, many of whom struggle with access to proper hygiene products, received much-needed support to help them stay in school without interruptions caused by menstruation. Additionally, the activity provided an empowering platform for the girls, featuring a motivation talk by the donor that resonated deeply with the young girls, inspiring them to aim high in their academic and personal lives. Moreover, the session on menstrual hygiene management equipped the girls with practical knowledge, enabling them to better understand their bodies and manage their menstrual health with confidence and dignity. This holistic approach not only boosted their self-esteem but also fostered a supportive environment that encouraged them to stay engaged in their education.</p>
+    </article><article class="info-card ">
+      <h3>Showcasing impact of the livelihoods program</h3><p>Each dignity kit, thoughtfully packaged in a colourful drawstring bag made my women in HESED Africaâ€™s livelihood program, was a powerful representation of the impact of the program, as well as the craftsmanship and commitment of the women behind the creations. These women, who have limited economic opportunities, found both purpose and earned income through sewing the bags. The handmade bags added a personal touch, reinforcing the message that the young girls are seen, valued, and supported. This initiative highlighted the broader impact of the livelihoods programâ€“â€“empowering women economically while helping them develop valuable skills through taking part in meaningful social initiatives.</p>
+    </article></div><h3>Conclusion</h3><p>â€œThe joy of the girlsâ€™ faces was undeniable,â€ remarked J. Ogundo, a member of the East African Womenâ€™s League, who attended the in-school activity. This success is a testament to the potential that lies in directly engaging local trusts to secure additional funding. Our ability to expand our reach and secure necessary funding to support our school health program has enabled us explore new avenues for impact. As we continue to diversify our funding sources and deepen our partnerships, the future holds endless possibilitiesâ€“â€“not just for the young adolescent girls at Heshima Primary School, but for all the communities we serve.</p><div class="story-meta">East African Womenâ€™s League representative presents dignity kits to Heshima Primary School Students Â· Date: 29th July 2024 Â· Location: Heshima Primary School, Off Jogoo Road, Nairobi Â· Photo Credit: Communications, HESED Africa</div></section>
+  <section class="reader-section story-reader tinted" id="read-golf"><div class="reader-kicker">08 Â· SUCCESS STORY</div><h2>Teeing off for a cause in the lush greens of the Royal Nairobi Golf Club</h2><div class="story-meta">Date: 23rd August 2024 Â· Location: Royal Nairobi Golf Club, Ngong Road, Nairobi Â· Photo Credit: Communications, HESED Africa</div><div class="image-strip"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Royal Nairobi Golf Club event" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa products at golf event" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Golf charity event engagement" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Golfer representing HESED Africa" loading="lazy"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Golf event gathering" loading="lazy"></div><h3>Background</h3><p>HESED Africa and Don Bosco align in their missions to support vulnerable populations, particularly youth and children. HESED Africa empowers urban refugees and vulnerable local communities in Kenya, while Don Bosco is dedicated to uplift the lives of the poorest and most abandoned young people globally. This alignment motivated our participation in the fundraiser, which aimed to address the urgent needs of the communities we serve.</p><p>Our commitment to fostering meaningful change and diversify and expand our resources motivated our involvement in this high-profile charity event, a key element of our resource mobilization strategy. Our participation aimed to build relationships with potential donors, corporate sponsors, and benefactors who align with our mission. Furthermore, the event offered a valuable platform to promote our income generating activity program, increasing our visibility and generating interest to our programs.</p><h3>Introduction</h3><p>At the heart of the Royal Nairobi Golf Club, surrounded by lush greens, HESED Africa stood out as the sole non-governmental organization, driving a different kind of ball â€“ one of empowerment for marginalized communities. The charity golf event, hosted by the Catholic Men Association of Don Bosco Upperhill Church on August 23rd, 2024, presented a unique opportunity for HESED Africa to raise awareness about its programs, build partnerships, and showcase the incredible talents of our artisans through products made from our resource mobilization workshop. We were proudly represented by our golfer, who gave us an impressive performance on the course. The day culminated in a successful fundraising effort, with a little over Ksh 15,000 through the sale of Ankara products produced from newly launched income generating activity (shop) at the tent and a lively auction during the dinner. These funds will go directly toward supporting economic empowerment initiatives, helping us continue to support underserved communities.</p><h3>Impact</h3><div class="reader-grid"><article class="info-card ">
+      <h3>Direct engagement with likeminded charities</h3><p>HESED Africaâ€™s participation in the charity golf event was a resounding success and marked an important milestone for us. As our first major resource mobilization event, it affirmed the effectiveness of our resource mobilization strategy, which focuses on direct engagement with foundations, trusts, and the broader community, as well as generating our own funds through our fashion and design initiative. Throughout the event, we made sales during the day and auctioned products from our income-generating activities during the evening dinner. This success brings us closer to achieving our two key resource mobilization objectives: increasing and diversifying funding for HESED Africaâ€™s programs and strengthening partnerships with the government, private sector, and other NGOs.</p>
+    </article><article class="info-card ">
+      <h3>Enhancing visibility</h3><p>The event offered us an excellent platform to enhance the visibility of both our organization and our income-generating activities, as well as that of our partner organization, the Danish Refugee Council (DRC). We set up a tent with two stands â€“â€“ one dedicated to showcasing and selling our products, and the other focused on engaging visitors and sharing our brochures and flyers that highlight our programs. This setup not only allowed us to raise awareness about HESED Africaâ€™s mission but also provided an opportunity to highlight the localization agenda that DRC is implementing through HESED and partners, while connecting directly with potential partners, sponsors, and supporters. Some of these partners include, Kingdom Bank, Cfao Mobility Kenya, Lofty Corban, Standard Chartered Kenya, Arwa &amp; Change Advocated, among others.</p>
+    </article><article class="info-card ">
+      <h3>Learning lessons for future engagements with sponsors, friends and donors</h3><p>Our involvement in this event set a strong foundation for organizing similar fundraising activities in the future. Over breakfast during the day of the event, we had a chance to build rapport with the event organizer, who shared valuable insights into planning such events, and we, in turn, shared more about the work HESED Africa does. This meaningful exchange not only strengthened our relationship but also laid the groundwork for potential collaborations in the future. Additionally, we identified and engaged potential sponsors, building our donor profile database by collecting their contact information in our visitorsâ€™ book. We plan to reach out to these contacts for our future fundraising initiatives targeting the private sector and high-net-worth individuals.</p>
+    </article><article class="info-card ">
+      <h3>Showcasing impact of the livelihoods program</h3><p>A standout moment was the presence of our artisan at the fundraising stand, where she showcased her unique creations highlighting her journey of empowerment through HESED Africa. Attendees were genuinely impressed by the quality of her work, which led to several pieces being auctioned off during the dinner, significantly contributing to our resource mobilization efforts as well as our visibility. This demonstrates the effectiveness of our livelihood program, which equips the women with the skills needed to thrive in both local and international markets. Ultimately, the event reinforced our commitment to empowering vulnerable communities by equipping them with vital skills, connecting them with opportunities, and ultimately supporting them on their path to self-reliance.</p>
+    </article><article class="info-card ">
+      <h3>Maximizing visibility and networking through pro golfer representation</h3><p>Our golfer, Arwa, represented HESED Africa with great distinction at the tournament, scoring an impressive 33 points over the 18-hole championship course. Her remarkable performance earned her recognition during the dinner, where received a well-deserved award. The golf club expressed interest in having her participate in other tournaments, opening more opportunities for HESED to expand our network. Arwaâ€™s achievement not only showcased her talent but also provided us with a valuable opportunity to engage with a wider audience, allowing us to raise awareness about our mission significantly enhancing our visibility.</p>
+    </article></div><h3>Conclusion</h3><p>Reflecting on the success of our resource mobilization at the charity golf event, we are inspired by the momentum weâ€™ve built and the valuable connections weâ€™ve established. As Lao Tzu reminds us, â€˜The journey of a thousand miles begins with a single step.â€™ Each connection made and every dollar raised, brings us closer to fulfilling our mission of diversifying and expanding our resources, reducing reliance on limited funding streams, ensuring financial stability for our programs, and fostering sustainability in our efforts to empower vulnerable communities.</p><div class="story-meta">Guests shopping for artisan products at the tent Â· An artisan from HESED Africa livelihood program arranging her unique creations Â· The Executive Director of HESED Africa engaging with a guest at the event Â· The Resource Mobilization Manager receiving the award on behalf of the golfer at the dinner Â· Date: 23rd August 2024 Â· Location: Royal Nairobi Golf Club, Ngong Road, Nairobi Â· Photo Credits: Communications, HESED Africa; Don Bosco Upperhill</div></section>
+  <section class="reader-section" id="read-gallery"><div class="reader-kicker">09 Â· GALLERY</div><h2>Field notes</h2><div class="mini-gallery"><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji artisan creating a product" loading="lazy"><figcaption>Taraji products</figcaption></figure><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handcrafted bag" loading="lazy"><figcaption>Taraji products</figcaption></figure><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handcrafted pouch" loading="lazy"><figcaption>Taraji products</figcaption></figure><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Taraji handcrafted textile product" loading="lazy"><figcaption>Taraji products</figcaption></figure><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa event engagement" loading="lazy"><figcaption>Under Monitoring and evaluation</figcaption></figure><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Project Cycle Management Training" loading="lazy"><figcaption>Project Cycle Management Training</figcaption></figure><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="Project Cycle Management Training" loading="lazy"><figcaption>Project Cycle Management Training</figcaption></figure><figure><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="National NGOâ€™s week stakeholder engagement" loading="lazy"><figcaption>UNDER â€“ Organization resilience Â· At the national NGOâ€™s week (Courtesy of the DRC-C4C linkage) event engaging stakeholders</figcaption></figure></div></section>
+  <footer class="reader-footer"><div class="logo-row">
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Danish Refugee Council logo" loading="lazy"><span>DRC</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/jpeg;base64,...TRUNCATED..." alt="HESED Africa logo" loading="lazy"><span>HESED Africa</span></div>
+  <div class="logo-wrap"><img class="" src="data:image/png;base64,...TRUNCATED..." alt="Ministry of Foreign Affairs of Denmark Danida logo" loading="lazy"><span>DANIDA</span></div>
+</div><p>info@hesedafrica.org Â· www.hesedafrica.org</p></footer>
+</main>
+
+<script>
+const body=document.body, deck=document.getElementById('deck'), fullPage=document.getElementById('fullPage');
+const slides=[...document.querySelectorAll('.slide')], dots=document.getElementById('slideDots'), count=document.getElementById('slideCount');
+function setMode(mode){body.classList.toggle('mode-full',mode==='full');body.classList.toggle('mode-present',mode!=='full');document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));window.scrollTo({top:0,behavior:'instant'});if(mode!=='full') updateSlides();}
+document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
+slides.forEach((s,i)=>{const b=document.createElement('button');b.title=s.dataset.title||`Slide ${i+1}`;b.setAttribute('aria-label',b.title);b.addEventListener('click',()=>s.scrollIntoView({behavior:'smooth'}));dots.appendChild(b);});
+const dotButtons=[...dots.children];
+function updateSlides(){let best=0,dist=Infinity;slides.forEach((s,i)=>{const d=Math.abs(s.getBoundingClientRect().top-68);if(d<dist){dist=d;best=i;}});dotButtons.forEach((b,i)=>b.classList.toggle('active',i===best));count.textContent=`${String(best+1).padStart(2,'0')} / ${String(slides.length).padStart(2,'0')}`;}
+deck.addEventListener('scroll',updateSlides,{passive:true});window.addEventListener('resize',updateSlides);updateSlides();
+document.querySelectorAll('[data-jump]').forEach(b=>b.addEventListener('click',()=>document.getElementById(b.dataset.jump).scrollIntoView({behavior:'smooth'})));
+document.addEventListener('keydown',e=>{if(body.classList.contains('mode-full'))return;const current=dotButtons.findIndex(b=>b.classList.contains('active'));if(['ArrowDown','ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();slides[Math.min(slides.length-1,current+1)].scrollIntoView({behavior:'smooth'});}if(['ArrowUp','ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();slides[Math.max(0,current-1)].scrollIntoView({behavior:'smooth'});}if(e.key==='Home'){e.preventDefault();slides[0].scrollIntoView({behavior:'smooth'});}if(e.key==='End'){e.preventDefault();slides.at(-1).scrollIntoView({behavior:'smooth'});}});
+document.getElementById('fullscreenBtn').addEventListener('click',async()=>{try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen();}catch(e){document.getElementById('fullscreenBtn').textContent='â†—';}});
+document.getElementById('printBtn').addEventListener('click',()=>{setMode('full');setTimeout(()=>window.print(),100);});
+const query=new URLSearchParams(location.search);setMode(query.get('mode')==='full'?'full':'present');
+</script>
+</body>
+</html>
